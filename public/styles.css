@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
-
 * {
   padding: 0;
   margin: 0;
@@ -392,4 +389,158 @@ body {
   cursor: not-allowed;
   height: 52px;
   width: 260px;
+}
+
+.sectionThree {
+  display: flex;
+  gap: 10%;
+  padding: 10%;
+  padding-top: 10%;
+  background-color: #060818;
+  font-family: "Nanum Gothic", sans-serif;
+}
+.sectionThreeImage {
+  width: 35%;
+  border-radius: 32px;
+  border: 1.5px solid rgb(31, 239, 31);
+}
+
+.sectionThreeDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  line-height: 24px;
+  width: 55%;
+}
+
+.sectionThreeHeading {
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.sectionThreeParagraph {
+  color: rgb(103, 115, 149);
+  font-size: 16px;
+}
+
+.sectionThreeButtons {
+  margin-top: 2%;
+  display: flex;
+  /* color:white; */
+  gap: 10%;
+  /* background-color: aqua; */
+}
+.sectionThreeButtons div {
+  border-radius: 10px;
+  padding: 2% 5%;
+  font-weight: 600;
+  /* background-color: yellow; */
+}
+.sectionThreeButtons1 {
+  background-color: #1eebe4;
+  color: black;
+}
+.sectionThreeButtons2 {
+  background-color: #060818;
+  color: white;
+  border: 1.5px solid #1eebe4;
+}
+
+.secondLastSection {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #07101e;
+  font-weight: 800;
+  font-family: "Nanum Gothic", sans-serif;
+}
+.secondLastSection p {
+  font-size: 2rem;
+  /* width: 80%; */
+  text-align: center;
+
+  line-height: 48px;
+  color: white;
+}
+
+.secondLastLogos {
+  padding-top: 7%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 3%;
+  color: white;
+  font-size: 2rem;
+}
+
+.secondLastLogos1 {
+  background-color: #1e1d38;
+  padding: 1.5%;
+  border-radius: 50px;
+}
+
+.footerMainSection {
+  background-color: black;
+  /* display: flex;
+    flex-direction: column; */
+}
+
+.footerSection {
+  font-family: "Nanum Gothic", sans-serif;
+  padding: 5%;
+  padding-top: 2%;
+  display: flex;
+  color: white;
+}
+.footerSectionLeft {
+  flex: 0.5;
+  padding: 5%;
+  gap: 10%;
+}
+.footerSectionRight {
+  /* background-color: red; */
+  flex: 0.5;
+  /* height: 80%; */
+  display: flex;
+  gap: 15%;
+  padding: 3%;
+}
+.footerRightHeadings {
+  font-size: 16px !important;
+  /* margin-bottom: 4%; */
+}
+.footerResources {
+  display: flex;
+  flex-direction: column;
+  gap: 15%;
+  font-size: 14px;
+}
+.footerProducts {
+  display: flex;
+  flex-direction: column;
+  gap: 15%;
+}
+.footerPress {
+  display: flex;
+  flex-direction: column;
+  gap: 15%;
+}
+
+.horizontalRule {
+  /* color:rgb(103, 115, 149); */
+  color: red;
+
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  /* align-items: center; */
+  /* text-align: center; */
+}
+
+.footerCredits {
+  color: rgb(103, 115, 149);
+  text-align: center;
+  padding: 3%;
 }
