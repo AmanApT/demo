@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footerSectionLeft'>
            
             <img src={SVG} alt="My SVG File" />
-            <p style={{color:"rgb(103, 115, 149)"}}>
+            <p style={{color:"rgb(103, 115, 149)",paddingTop:"2%"}}>
             ArbDogeAI, an Experiment in the Arbitrum Ecosystem.
             </p>
         </div>
@@ -52,7 +52,10 @@ const Footer = () => {
                 </div>
         </div>
     </div>
-    <hr className='horizontalRule' />
+    {/* <hr className='horizontalRule' /> */}
+    {/* <div className='horizontalRule'> */}
+    <hr className='horizontalRule'/>
+    {/* </div> */}
     <p className='footerCredits'> © 2023 Arbitrum Doge Paradise. All right reserved.</p>
     </div>
   )

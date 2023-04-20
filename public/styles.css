@@ -497,6 +497,7 @@ body {
 .footerSectionLeft {
   flex: 0.5;
   padding: 5%;
+  padding-top: 2%;
   gap: 10%;
 }
 .footerSectionRight {
@@ -529,18 +530,40 @@ body {
 }
 
 .horizontalRule {
-  /* color:rgb(103, 115, 149); */
-  color: red;
+ /* text-align: center;
+ height: 1vh;
+ color:red; */
+}
 
-  width: 70%;
+hr{
+  /* color:red;
+  height: 55%; */
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
-  /* align-items: center; */
-  /* text-align: center; */
 }
 
 .footerCredits {
   color: rgb(103, 115, 149);
   text-align: center;
   padding: 3%;
+}
+
+
+
+.marqueeSection{
+    display: flex;
+    /* flex-direction: column; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    gap: 5%;
+    background-color: #081B2F;
+}
+.marqueeSection div{
+    text-align: center;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+    color:white;
 }

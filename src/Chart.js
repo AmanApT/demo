@@ -41,7 +41,7 @@ const Chart = () => {
   };
 
   return (
-    <div className='chart'>
+    <div className='chart' style={{paddingBottom: "2%"}}>
       <CanvasJSChart options={options} />
     </div>
   );

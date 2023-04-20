@@ -5,6 +5,7 @@ import Chart from "./Chart";
 import SectionThree from "./SectionThree";
 import SecondLast from "./SecondLast";
 import Footer from "./Footer";
+import MarqueeSection from "./MarqueeSection";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SectionTwo />
       <SectionThree />
       <Chart />
+      <MarqueeSection />
       <SecondLast />
       <Footer />
     </div>
